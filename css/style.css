@@ -1,0 +1,1021 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.589);
+}
+header nav {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+header nav img {
+  width: 60px;
+  height: auto;
+}
+header nav a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+header nav a:hover {
+  color: black;
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.589);
+}
+header nav {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+header nav img {
+  width: 60px;
+  height: auto;
+}
+header nav a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+header nav a:hover {
+  color: black;
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+.nosotros {
+  background-color: white;
+}
+.nosotros .row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.nosotros .row h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  color: rgb(45, 45, 192);
+  font-weight: bold;
+  padding: 20px;
+  text-align: right;
+}
+.nosotros .row h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: rgb(45, 45, 192);
+  text-decoration: underline;
+  font-weight: bold;
+  padding: 20px;
+  text-align: left;
+}
+.nosotros .row p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  padding-left: 10px;
+  text-align: right;
+}
+.nosotros .row img {
+  max-width: 100%;
+  max-height: 450px;
+  display: block;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+.nosotros .us2 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 35px;
+  background-color: white;
+}
+.nosotros .us2 .card1 {
+  width: 300px;
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 15px;
+  margin-top: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.nosotros .us2 .card1 h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  color: rgb(45, 45, 192);
+  font-weight: bold;
+  text-align: left;
+}
+.nosotros .us2 .card1 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: rgb(45, 45, 192);
+  text-align: left;
+}
+.nosotros .us2 .card1 img {
+  width: 80px;
+  height: fit-content;
+}
+.nosotros .us2 .card2 {
+  width: 300px;
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 15px;
+  margin-top: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.nosotros .us2 .card2 h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  color: rgb(0, 182, 118);
+  font-weight: bold;
+  text-align: left;
+}
+.nosotros .us2 .card2 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: rgb(0, 182, 118);
+  text-align: left;
+}
+.nosotros .us2 .card2 img {
+  width: 80px;
+  height: fit-content;
+}
+.nosotros .us2 .card3 {
+  width: 300px;
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 15px;
+  margin-top: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.nosotros .us2 .card3 h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  color: rgb(195, 158, 255);
+  font-weight: bold;
+  text-align: left;
+}
+.nosotros .us2 .card3 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: rgb(195, 158, 255);
+  text-align: left;
+}
+.nosotros .us2 .card3 img {
+  width: 80px;
+  height: fit-content;
+}
+.nosotros .us3 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 30px;
+  padding: 30px;
+  justify-content: center;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.nosotros .us3 h2 {
+  font-size: 40px;
+  color: rgb(45, 45, 192);
+  font-weight: bold;
+  padding: 20px;
+}
+.nosotros .us3 p {
+  font-size: 20px;
+  padding: 5px;
+}
+.nosotros .us3 button {
+  padding: 10px 30px 10px 30px;
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  background-color: rgb(45, 45, 192);
+  border-style: solid;
+  border-color: rgb(45, 45, 192);
+  border-radius: 50px 50px 50px 50px;
+}
+.nosotros .us3 button:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.589);
+}
+header nav {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+header nav img {
+  width: 60px;
+  height: auto;
+}
+header nav a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+header nav a:hover {
+  color: black;
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.589);
+}
+header nav {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+header nav img {
+  width: 60px;
+  height: auto;
+}
+header nav a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+header nav a:hover {
+  color: black;
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+.nosotros {
+  background-color: white;
+}
+.nosotros .row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.nosotros .row h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  color: rgb(45, 45, 192);
+  font-weight: bold;
+  padding: 20px;
+  text-align: right;
+}
+.nosotros .row h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: rgb(45, 45, 192);
+  text-decoration: underline;
+  font-weight: bold;
+  padding: 20px;
+  text-align: left;
+}
+.nosotros .row p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  padding-left: 10px;
+  text-align: right;
+}
+.nosotros .row img {
+  max-width: 100%;
+  max-height: 450px;
+  display: block;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+.nosotros .us2 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 35px;
+  background-color: white;
+}
+.nosotros .us2 .card1 {
+  width: 300px;
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 15px;
+  margin-top: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.nosotros .us2 .card1 h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  color: rgb(45, 45, 192);
+  font-weight: bold;
+  text-align: left;
+}
+.nosotros .us2 .card1 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: rgb(45, 45, 192);
+  text-align: left;
+}
+.nosotros .us2 .card1 img {
+  width: 80px;
+  height: fit-content;
+}
+.nosotros .us2 .card2 {
+  width: 300px;
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 15px;
+  margin-top: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.nosotros .us2 .card2 h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  color: rgb(0, 182, 118);
+  font-weight: bold;
+  text-align: left;
+}
+.nosotros .us2 .card2 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: rgb(0, 182, 118);
+  text-align: left;
+}
+.nosotros .us2 .card2 img {
+  width: 80px;
+  height: fit-content;
+}
+.nosotros .us2 .card3 {
+  width: 300px;
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 15px;
+  margin-top: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.nosotros .us2 .card3 h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  color: rgb(195, 158, 255);
+  font-weight: bold;
+  text-align: left;
+}
+.nosotros .us2 .card3 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: rgb(195, 158, 255);
+  text-align: left;
+}
+.nosotros .us2 .card3 img {
+  width: 80px;
+  height: fit-content;
+}
+.nosotros .us3 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 30px;
+  padding: 30px;
+  justify-content: center;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.nosotros .us3 h2 {
+  font-size: 40px;
+  color: rgb(45, 45, 192);
+  font-weight: bold;
+  padding: 20px;
+}
+.nosotros .us3 p {
+  font-size: 20px;
+  padding: 5px;
+}
+.nosotros .us3 button {
+  padding: 10px 30px 10px 30px;
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  background-color: rgb(45, 45, 192);
+  border-style: solid;
+  border-color: rgb(45, 45, 192);
+  border-radius: 50px 50px 50px 50px;
+}
+.nosotros .us3 button:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.servicios .serv1 .trabajo {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 30px;
+  padding: 30px;
+  justify-content: center;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.servicios .serv1 .trabajo h2 {
+  font-size: 40px;
+  color: rgb(45, 45, 192);
+  font-weight: bold;
+  padding: 20px;
+}
+.servicios .serv1 .trabajo p {
+  font-size: 20px;
+  padding: 5px;
+}
+.servicios .serv2 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.servicios .serv2 .trabajo2-1 {
+  width: 300px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.servicios .serv2 .trabajo2-1 h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  color: rgb(45, 45, 192);
+  font-weight: bold;
+  margin: 8px;
+}
+.servicios .serv2 .trabajo2-1 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+.servicios .serv2 .trabajo2-1 img {
+  width: 80px;
+  height: fit-content;
+}
+.servicios .serv2 .trabajo2-2 {
+  width: 300px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.servicios .serv2 .trabajo2-2 h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  color: rgb(45, 45, 192);
+  font-weight: bold;
+  margin: 8px;
+}
+.servicios .serv2 .trabajo2-2 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+.servicios .serv2 .trabajo2-2 img {
+  width: 80px;
+  height: fit-content;
+}
+.servicios .serv2 .trabajo2-3 {
+  width: 300px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.servicios .serv2 .trabajo2-3 h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  color: rgb(45, 45, 192);
+  font-weight: bold;
+  margin: 8px;
+}
+.servicios .serv2 .trabajo2-3 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+.servicios .serv2 .trabajo2-3 img {
+  width: 80px;
+  height: fit-content;
+}
+.servicios .ban {
+  background-color: rgba(204, 204, 204, 0.6352941176);
+}
+.servicios .ban .esp {
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.servicios .ban .esp img {
+  display: block;
+  max-width: 100%;
+  max-height: 450px;
+  margin: 30px auto;
+}
+.servicios .serv3 {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+.servicios .serv3 h2 {
+  padding: 10px 30px 10px 30px;
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  background-color: rgb(45, 45, 192);
+  border-style: solid;
+  border-color: rgb(45, 45, 192);
+  border-radius: 50px 50px 50px 50px;
+  text-align: center;
+}
+.servicios .serv3 .trabajo3 {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.servicios .serv3 .trabajo3 details {
+  margin-bottom: 20px;
+}
+.servicios .serv3 .trabajo3 details summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.servicios .serv3 .trabajo3 details p {
+  display: none;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: max-height 0.3s ease;
+}
+.servicios .serv3 .trabajo3 details[open] p {
+  display: block;
+  max-height: 300px;
+}
+.servicios .serv3 .trabajo3 details[open] summary {
+  background-color: #bbb;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.589);
+}
+header nav {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+header nav img {
+  width: 60px;
+  height: auto;
+}
+header nav a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+header nav a:hover {
+  color: black;
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.589);
+}
+header nav {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+header nav img {
+  width: 60px;
+  height: auto;
+}
+header nav a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+header nav a:hover {
+  color: black;
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+.nosotros {
+  background-color: white;
+}
+.nosotros .row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.nosotros .row h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  color: rgb(45, 45, 192);
+  font-weight: bold;
+  padding: 20px;
+  text-align: right;
+}
+.nosotros .row h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: rgb(45, 45, 192);
+  text-decoration: underline;
+  font-weight: bold;
+  padding: 20px;
+  text-align: left;
+}
+.nosotros .row p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  padding-left: 10px;
+  text-align: right;
+}
+.nosotros .row img {
+  max-width: 100%;
+  max-height: 450px;
+  display: block;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+.nosotros .us2 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 35px;
+  background-color: white;
+}
+.nosotros .us2 .card1 {
+  width: 300px;
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 15px;
+  margin-top: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.nosotros .us2 .card1 h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  color: rgb(45, 45, 192);
+  font-weight: bold;
+  text-align: left;
+}
+.nosotros .us2 .card1 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: rgb(45, 45, 192);
+  text-align: left;
+}
+.nosotros .us2 .card1 img {
+  width: 80px;
+  height: fit-content;
+}
+.nosotros .us2 .card2 {
+  width: 300px;
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 15px;
+  margin-top: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.nosotros .us2 .card2 h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  color: rgb(0, 182, 118);
+  font-weight: bold;
+  text-align: left;
+}
+.nosotros .us2 .card2 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: rgb(0, 182, 118);
+  text-align: left;
+}
+.nosotros .us2 .card2 img {
+  width: 80px;
+  height: fit-content;
+}
+.nosotros .us2 .card3 {
+  width: 300px;
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 15px;
+  margin-top: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.nosotros .us2 .card3 h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  color: rgb(195, 158, 255);
+  font-weight: bold;
+  text-align: left;
+}
+.nosotros .us2 .card3 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: rgb(195, 158, 255);
+  text-align: left;
+}
+.nosotros .us2 .card3 img {
+  width: 80px;
+  height: fit-content;
+}
+.nosotros .us3 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 30px;
+  padding: 30px;
+  justify-content: center;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.nosotros .us3 h2 {
+  font-size: 40px;
+  color: rgb(45, 45, 192);
+  font-weight: bold;
+  padding: 20px;
+}
+.nosotros .us3 p {
+  font-size: 20px;
+  padding: 5px;
+}
+.nosotros .us3 button {
+  padding: 10px 30px 10px 30px;
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  background-color: rgb(45, 45, 192);
+  border-style: solid;
+  border-color: rgb(45, 45, 192);
+  border-radius: 50px 50px 50px 50px;
+}
+.nosotros .us3 button:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.info .row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.info .row h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  color: rgb(45, 45, 192);
+  font-weight: bold;
+  padding: 20px;
+}
+.info .row p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  padding-left: 15px;
+}
+.info .row h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: rgb(45, 45, 192);
+  padding: 15px;
+}
+.info .row img {
+  max-width: 100%;
+  max-height: 450px;
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+}
+.info .row ol {
+  list-style: none;
+  padding-left: 20px;
+}
+.info .row ol li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.info .row ol li::before {
+  content: "•";
+  color: #007bff;
+  font-size: 1.2em;
+  position: absolute;
+  left: 0;
+  padding-left: 20px;
+}
+
+.contacto {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #f0f0f0;
+  padding-bottom: 20px;
+}
+.contacto .cont .row {
+  text-align: left;
+  padding-top: 45px;
+}
+.contacto .cont .row h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(45, 45, 192);
+  padding: 10px;
+  margin-top: 20px;
+}
+.contacto .cont .row p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  padding: 10px;
+}
+.contacto .cont .row h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  color: rgb(45, 45, 192);
+}
+.contacto .cont .row form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+.contacto .cont .row form .form-group {
+  margin-bottom: 20px;
+}
+.contacto .cont .row form .form-group input,
+.contacto .cont .row form .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.contacto .cont .row form .form-group textarea {
+  resize: vertical;
+}
+.contacto .cont .row form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+.contacto .cont .row form button:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  background-color: rgb(206, 206, 206);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+footer .copy {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 5px;
+}
+footer .redes a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 5px;
+  color: black;
+}
+footer .redes a:hover {
+  color: black;
+  text-decoration: underline;
+}
+footer .redes a img {
+  height: 32px;
+  width: auto;
+  padding: 5px;
+}
+
+.portada {
+  background-image: url("../media/fondo.png");
+}
+.portada .espaciador .banner {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.portada .espaciador .banner img {
+  max-width: 90%;
+  height: auto;
+}
+.portada .sec1 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.portada .sec1 .row {
+  background-image: linear-gradient(to bottom, white, rgb(187, 222, 251));
+  text-align: left;
+  padding-top: 45px;
+}
+.portada .sec1 .row h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(45, 45, 192);
+  padding: 20px;
+}
+.portada .sec1 .row p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  padding: 15px;
+}
+.portada .sec1 .row img {
+  max-width: 100%;
+  max-height: 450px;
+  display: block;
+  margin: 30px auto;
+}
+.portada .sec2 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.portada .sec2 .row {
+  background-image: linear-gradient(to top, rgb(187, 222, 251), white, rgb(187, 222, 251));
+  text-align: right;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+.portada .sec2 .row h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  color: rgb(45, 45, 192);
+  font-weight: bold;
+  padding: 20px;
+}
+.portada .sec2 .row p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  padding: 20px;
+}
+.portada .sec2 .row img {
+  max-width: 100%;
+  max-height: 350px;
+  display: block;
+  margin: 30px auto;
+  border-radius: 45%;
+}
+.portada .sec3 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.portada .sec3 .row {
+  background-image: linear-gradient(to top, rgb(187, 222, 251), white, rgb(187, 222, 251));
+  text-align: left;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.portada .sec3 .row h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  color: rgb(45, 45, 192);
+  font-weight: bold;
+  padding: 20px;
+}
+.portada .sec3 .row h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: rgb(45, 45, 192);
+  text-decoration: underline;
+  font-weight: bold;
+  padding: 20px;
+}
+.portada .sec3 .row p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  padding-left: 10px;
+}
+.portada .sec3 .row img {
+  max-width: 100%;
+  max-height: 350px;
+  display: block;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

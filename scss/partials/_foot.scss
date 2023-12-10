@@ -1,0 +1,33 @@
+@import "mixins";
+
+$color-fondo: rgb(206, 206, 206);
+$tipografia: 'Roboto', sans-serif;
+
+footer {
+    background-color: $color-fondo;
+    @include flex;
+    .copy {
+        font-family: $tipografia;
+        text-decoration: none;
+        font-size: 15px;
+        padding: 5px;
+    }
+    .redes {
+        a {
+            font-family: $tipografia;
+            text-decoration: none;
+            font-size: 15px;
+            padding: 5px;
+            color: black;
+            &:hover{
+                color: black;
+                text-decoration: underline;
+            }
+            img {
+                height: 32px;
+                width: auto;
+                padding:5px;
+            }
+        }
+    }
+}

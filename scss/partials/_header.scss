@@ -1,0 +1,28 @@
+@import "mixins";
+
+$color-fondo: rgba(255, 255, 255, 0.589);
+$tipografia: 'Roboto', sans-serif;
+
+header{
+    background-color: $color-fondo;
+    nav{
+        text-align: center;
+        @include flex;
+        img{
+            width: 60px;
+            height: auto;
+        }
+        a{
+            font-family: $tipografia;
+            text-decoration: none;
+            font-size: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+            &:hover{
+                color: black;
+                font-weight: 300;
+                text-decoration: underline;
+            }
+        }
+    }
+}
