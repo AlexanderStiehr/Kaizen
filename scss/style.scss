@@ -12,6 +12,38 @@
 
 .portada {
     background-image: url("../media/fondo.png");
+    
+    $breakpoint-sm: 576px;
+    $breakpoint-md: 768px;
+    $breakpoint-lg: 992px;
+    $breakpoint-xl: 1200px;
+
+    @media (max-width: $breakpoint-sm) {
+        .sec1, .sec2, .sec3 {
+            .row {
+                h1 {
+                    font-size: 24px;
+                    padding: 15px;
+                }
+                p {
+                    font-size: 16px;
+                    padding: 10px;
+                }
+                h2 {
+                    font-size: 20px;
+                    padding: 15px;
+                }
+                h3 {
+                    font-size: 16px;
+                    padding: 15px;
+                }
+                img {
+                    max-height: 300px;
+                }
+            }
+        }
+    }
+
     .espaciador{
         .banner{
             @include flex;
@@ -55,9 +87,9 @@
             text-align: right;
             padding-top: 50px;
             padding-bottom: 80px;
-            h1{
+            h2{
                 font-family: $tipografia;
-                font-size: 30px;
+                font-size: 25px;
                 color: rgb(45, 45, 192);
                 font-weight: bold;
                 padding: 20px;
@@ -83,14 +115,14 @@
             text-align: left;
             padding-top: 50px;
             padding-bottom: 50px;
-            h1{
+            h2{
                 font-family: $tipografia;
-                font-size: 30px;
+                font-size: 25px;
                 color: rgb(45, 45, 192);
                 font-weight: bold;
                 padding: 20px;
             }
-            h2{
+            h3{
                 font-family: $tipografia;
                 font-size: 18px;
                 color: rgb(45, 45, 192);

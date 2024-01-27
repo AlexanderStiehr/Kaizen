@@ -911,6 +911,27 @@ footer .redes a img {
 .portada {
   background-image: url("../media/fondo.png");
 }
+@media (max-width: 576px) {
+  .portada .sec1 .row h1, .portada .sec2 .row h1, .portada .sec3 .row h1 {
+    font-size: 24px;
+    padding: 15px;
+  }
+  .portada .sec1 .row p, .portada .sec2 .row p, .portada .sec3 .row p {
+    font-size: 16px;
+    padding: 10px;
+  }
+  .portada .sec1 .row h2, .portada .sec2 .row h2, .portada .sec3 .row h2 {
+    font-size: 20px;
+    padding: 15px;
+  }
+  .portada .sec1 .row h3, .portada .sec2 .row h3, .portada .sec3 .row h3 {
+    font-size: 16px;
+    padding: 15px;
+  }
+  .portada .sec1 .row img, .portada .sec2 .row img, .portada .sec3 .row img {
+    max-height: 300px;
+  }
+}
 .portada .espaciador .banner {
   display: flex;
   justify-content: space-around;
@@ -960,9 +981,9 @@ footer .redes a img {
   padding-top: 50px;
   padding-bottom: 80px;
 }
-.portada .sec2 .row h1 {
+.portada .sec2 .row h2 {
   font-family: "Roboto", sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   color: rgb(45, 45, 192);
   font-weight: bold;
   padding: 20px;
@@ -990,14 +1011,14 @@ footer .redes a img {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.portada .sec3 .row h1 {
+.portada .sec3 .row h2 {
   font-family: "Roboto", sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   color: rgb(45, 45, 192);
   font-weight: bold;
   padding: 20px;
 }
-.portada .sec3 .row h2 {
+.portada .sec3 .row h3 {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: rgb(45, 45, 192);
